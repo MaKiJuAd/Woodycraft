@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+@if(Auth::user()->Admin == 1)
+
+    <meta http-equiv="refresh" content="0; URL=http://localhost/Woodycraft/public/dashboard">
+
+@endif
+
+@if(Auth::user()->Admin == 0)
 
 <html>
 <head>
@@ -40,3 +46,5 @@
 </div>
 </body>
 </html>
+
+@endif
