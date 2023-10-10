@@ -28,6 +28,11 @@
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-nav-link :href="route('woody.panier')" :active="request()->routeIs('woody.panier')">
+                            {{ __('Panier') }}
+                        </x-nav-link>
+                    </div>
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                         <x-nav-link :href="route('paypal')" :active="request()->routeIs('paypal')">
                             {{ __('Paypal') }}
                         </x-nav-link>

@@ -60,7 +60,7 @@
                                 <div class="button__drow2"></div>
                             </a>
                         </div>
-                        <div class="container">[ Adrien on change pas les couleurs vas te faire foutre ]</div>
+                        <div class="container">[ Adrien on change pas les couleurs ]</div>
                         <div class="container"> </div>
                         <div class="container"> </div>
                     </div>

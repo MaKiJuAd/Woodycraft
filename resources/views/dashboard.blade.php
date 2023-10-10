@@ -17,7 +17,7 @@
 {{--        bot--}}
         <div class="container2">
             <div class="container">
-                <a href="/article" class="button">
+                <a href="http://localhost/Woodycraft/public/pro" class="button">
                     <div class="button__line"></div>
                     <div class="button__line"></div>
                     <span class="button__text">Nos Produits</span>
@@ -25,7 +25,7 @@
                     <div class="button__drow2"></div>
                 </a>
             </div>
-            <div class="container">[ Adrien on change pas les couleurs vas te faire foutre ]</div>
+            <div class="container">[ Adrien on change pas les couleurs ]</div>
             <div class="container"> </div>
             <div class="container"> </div>
         </div>
