@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('image');
             $table->foreignId('cat_id')->constrained()->onUpdate('restrict')->onDelete('restrict');
             $table->float('price');
-            $table->integer('quantity');
+            $table->integer('stock');
             $table->timestamps();
         });
     }

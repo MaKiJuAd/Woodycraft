@@ -3,16 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\order_items;
 
-class PanierController extends Controller
+
+class panierController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function panier()
+    public function index()
     {
         return view('woody.panier');
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -27,7 +30,15 @@ class PanierController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->validate([
+            'id' => 'required|max:100',
+            'quantity' => 'required|max:100',
+        ]);
+        $order = new order_items();
+        $order-> product_id = $request->id;
+        $order-> quantity = $request->quantity;
+        $order->save();
+        return view('dashboard');
     }
 
     /**

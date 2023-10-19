@@ -16,7 +16,7 @@
         </style>
     </head>
     <body>
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+        <div class="relative sm:flex justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
             @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                     @auth
@@ -31,7 +31,7 @@
                 </div>
             @endif
             <div style="width: 100vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center">
-                <div style="width: 100vw; height: 10vh; background-color: white;">
+                <div style="width: 100vw; height: 8vh; background-color: white;">
 
                 </div>
                 <div class="flex justify-center items-center text-white" style="height: 4vh; width: 100%; color: white ;background-color: #312F2F">
@@ -60,12 +60,12 @@
                                 <div class="button__drow2"></div>
                             </a>
                         </div>
-                        <div class="container">[ Adrien on change pas les couleurs ]</div>
+                        <div class="container"> </div>
                         <div class="container"> </div>
                         <div class="container"> </div>
                     </div>
                 </div>
-                <div class="bg-red-500 flex justify-center items-center " style="width: 100vw; height: 20vh; background-color: #CA2E55">
+                <div class="bg-red-500 flex justify-center items-center " style="width: 100vw; height: 20vh; background-color: #FFCC70">
 
                 </div>
 

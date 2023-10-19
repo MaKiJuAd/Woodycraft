@@ -23,11 +23,6 @@
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                        <x-nav-link :href="route('woody.articles')" :active="request()->routeIs('woody.articles')">
-                            {{ __('Article') }}
-                        </x-nav-link>
-                    </div>
-                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                         <x-nav-link :href="route('woody.panier')" :active="request()->routeIs('woody.panier')">
                             {{ __('Panier') }}
                         </x-nav-link>
@@ -35,6 +30,11 @@
                     <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                         <x-nav-link :href="route('paypal')" :active="request()->routeIs('paypal')">
                             {{ __('Paypal') }}
+                        </x-nav-link>
+                    </div>
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-nav-link :href="route('customer.create')" :active="request()->routeIs('customer.create')">
+                            {{ __('customer') }}
                         </x-nav-link>
                     </div>
                 </div>

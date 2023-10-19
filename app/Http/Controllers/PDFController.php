@@ -14,7 +14,7 @@ class PDFController extends Controller
     {
         $users = User::get();
         $data = [
-            'title' => 'WELCOME',
+            'title' => 'WOODYCRAFT',
             'date' =>date('d/m/Y'),
             'users' => $users,
         ];

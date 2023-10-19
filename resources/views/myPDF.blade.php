@@ -11,8 +11,7 @@
     <body>
     <h1>{{ $title }}</h1>
     <p>{{ $date }}</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Merci de votre commande sur notre site internet, veuillez completer votre cheque avec les informations suivante: </p>
 
     <table class="table table-bordered">s
         <thead>
@@ -32,7 +31,8 @@
     {{--            </tr>--}}
     {{--    @endforeach--}}
 
-        @foreach($users as $user)
+
+    @foreach($users as $user)
             @if($user->name === Auth::user()->name)
                 <tr style="border: solid black">
                     <td style="border: solid black">{{ $user->name }}</td>
@@ -44,6 +44,7 @@
         @endforeach
         </tbody>
     </table>
+    <p>Voici le récapitulatif de votre commande :</p>
     </body>
     </html>
 

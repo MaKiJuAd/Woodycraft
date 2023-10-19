@@ -25,12 +25,12 @@
                     <div class="button__drow2"></div>
                 </a>
             </div>
-            <div class="container">[ Adrien on change pas les couleurs ]</div>
+            <div class="container"></div>
             <div class="container"> </div>
             <div class="container"> </div>
         </div>
     </div>
-    <div class="bg-red-500 flex justify-center items-center" style="height: 20vh; background-color: #CA2E55">
+    <div class="bg-red-500 flex justify-center items-center" style="height: 20vh; background-color: #FFCC70">
 
     </div>
 </x-app-layout>
@@ -38,17 +38,8 @@
 
 <style>
     :root{
-        /* color type A */
         --line_color : #312F2F ;
         --back_color : #FFCB47  ;
-
-        /* color type B */
-        /* --line_color : #1b1919 ;
-        --back_color : #E9ECFF  ; */
-
-        /* color type C */
-        /* --line_color : #00135C ;
-        --back_color : #DEFFFA  ; */
     }
 
     .button{
